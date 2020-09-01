@@ -1,0 +1,62 @@
+body{
+    background:#217994;
+}
+.container{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 6fr ;
+    grid-gap: 20px ;
+    
+}
+
+.box1{
+    grid-column:1/3;
+    
+    font-family: "Homer Simpson UI";
+    text-align:center;
+    color: rgb(252, 252, 252);
+    font-size:30px;
+}
+
+
+.box2{
+   
+    text-align:right;
+    
+}
+
+.box3{
+    grid-column:1/3;
+    text-align:center;
+   
+}
+
+.box4{
+    grid-column:1/3;
+    text-align:center;
+    color: rgb(252, 252, 252);
+    font-size:30px;
+
+}
+
+.dice1{
+	float: right;
+	width:32px;
+	background:#F5F5F5;
+	border:#999 1px solid;
+	padding:10px;
+	font-size:24px;
+	text-align:center;
+	margin:5px;
+}
+
+.dice{
+	float:center;
+	width:32px;
+	background:#F5F5F5;
+	border:#999 1px solid;
+	padding:10px;
+	font-size:24px;
+	text-align:center;
+	margin:5px;
+}
